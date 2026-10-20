@@ -1,6 +1,6 @@
 {
 	"name": "@apsulis/emdash-nospam",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "CAPTCHA-free anti-spam for EmDash forms: signed timing token, honeypot, per-IP rate limit and content checks, with a dashboard widget. No third party, no dependency.",
 	"license": "MIT",
 	"author": "Apsulis (https://www.apsulis.com)",

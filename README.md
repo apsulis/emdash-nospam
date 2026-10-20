@@ -1,5 +1,8 @@
 # @apsulis/emdash-nospam
 
+[![npm](https://img.shields.io/npm/v/@apsulis/emdash-nospam)](https://www.npmjs.com/package/@apsulis/emdash-nospam)
+[![CI](https://github.com/apsulis/emdash-nospam/actions/workflows/ci.yml/badge.svg)](https://github.com/apsulis/emdash-nospam/actions/workflows/ci.yml)
+
 CAPTCHA-free anti-spam for the forms of **self-hosted [EmDash](https://github.com/emdash-cms/emdash)** sites
 (Node.js): contact forms, sign-ups, any endpoint of yours that turns a visitor's post into an email or a record.
 

@@ -1,7 +1,7 @@
 import type { PluginDescriptor } from "emdash";
 
 export const PLUGIN_ID = "nospam";
-export const VERSION = "0.1.0";
+export const VERSION = "0.1.1";
 
 /**
  * Descriptor for `emdash({ plugins: [emdashNospam()] })`: the « Anti-spam » dashboard widget. The checks run in
