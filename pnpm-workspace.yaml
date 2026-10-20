@@ -1,0 +1,12 @@
+# Supply-chain hardening (same rules as the Apsulis EmDash matrix).
+# - minimumReleaseAge: refuse versions published less than 24 h ago (in minutes); emdash exempted.
+# - blockExoticSubdeps: no transitive dependency from outside the registry.
+# - allowBuilds: only the native build scripts the dev toolchain needs.
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude:
+  - emdash
+  - "@emdash-cms/*"
+blockExoticSubdeps: true
+allowBuilds:
+  esbuild: true
+  sharp: true
